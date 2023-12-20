@@ -5,14 +5,12 @@ import { HeroesRoutes } from "../heroes"
 import { LoginPage } from "../auth"
 import { PublicRoute } from "./PublicRoute"
 
-
 export const AppRouter = () => {
 
   return (
     <>
 
       <Routes>
-
 
         <Route path="login" element={
           <PublicRoute>
